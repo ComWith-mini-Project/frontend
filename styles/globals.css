@@ -99,17 +99,21 @@ section {
 }
 
 :root {
-  --background: #1a1b1e;
-  --foreground: #ffffff;
+  --background: #ffffff;
+  --foreground: #1a1b1e;
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
 
   display: grid;
   place-items: center;
   height: 100%;
   font-size: 10px;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #1a1b1e;
+    --foreground: #ffffff;
+  }
 }
 
 body {
