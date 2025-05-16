@@ -1,5 +1,7 @@
-const Container = ({ children }: { children: React.ReactNode }) => {
-  return <div className="bg-[#2b2c31] p-[1.6rem] rounded-lg">{children}</div>;
+const Container = ({ children, className }: { children: React.ReactNode; className?: string }) => {
+  return (
+    <section className={`${className} bg-[#2b2c31] px-[2.6rem] rounded-lg`}>{children}</section>
+  );
 };
 
 export default Container;
