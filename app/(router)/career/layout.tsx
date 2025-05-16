@@ -11,8 +11,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <div className="career-page-wrapper">
-      <div className="flex justify-center">{children}</div>
+    <div className="pt-[4rem]">
+      <div className="career-page-wrapper">
+        <div className="flex justify-center">{children}</div>
+      </div>
     </div>
   );
 }

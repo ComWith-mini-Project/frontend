@@ -15,3 +15,10 @@
   transform: translateY(0.1rem);
   box-shadow: 0 0.05rem 0.5rem rgba(0, 0, 0, 0.2);
 }
+
+.home_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: inherit;
+}
