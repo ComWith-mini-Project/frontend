@@ -6,7 +6,7 @@ export const InputTitle = ({ children }: { children: React.ReactNode }) => {
 
 const Input = ({ title, placeholder }: { title: string; placeholder: string }) => {
   return (
-    <div className="flex py-4">
+    <div className="flex mt-11">
       <InputTitle>{title}</InputTitle>
       <input className={styles.career_input} type="text" placeholder={placeholder} />
     </div>

@@ -109,6 +109,8 @@ main {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
 
+  --hr-margin: 4rem;
+
   height: 100%;
   font-size: 10px;
 }
@@ -157,6 +159,7 @@ html input {
   border-radius: 0.4rem;
   padding: 1.2rem 1.4rem;
 }
+
 /* page wrapper */
 .career-page-wrapper {
   position: relative;

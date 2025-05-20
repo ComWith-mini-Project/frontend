@@ -1,3 +1,12 @@
+/* global */
+.hr {
+  width: 100%;
+  height: 1px;
+  border-color: #364153;
+  margin: var(--hr-margin) 0;
+}
+
+/* router */
 .career_input {
   background-color: #40414a;
   border: 1px solid #666;
