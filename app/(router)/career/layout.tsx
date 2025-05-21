@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 
-import Container from 'components/Container';
+import { Container } from 'components/Container';
+import NavBar from './Nav';
 
 import styles from 'styles/career.module.css';
 
@@ -21,7 +22,7 @@ export default function RootLayout({
           <div className={`${styles.container} flex gap-5`}>
             <main className="w-full">{children}</main>
             <Container className="min-w-[27rem]">
-              <div></div>
+              <NavBar />
             </Container>
           </div>
         </div>

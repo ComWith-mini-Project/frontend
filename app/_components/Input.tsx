@@ -4,7 +4,7 @@ export const InputTitle = ({ children }: { children: React.ReactNode }) => {
   return <div className="text-[1.4rem] min-w-[18rem] text-gray-400">{children}</div>;
 };
 
-const Input = ({ title, placeholder }: { title: string; placeholder: string }) => {
+export const Input = ({ title, placeholder }: { title: string; placeholder: string }) => {
   return (
     <div className="flex mt-11">
       <InputTitle>{title}</InputTitle>
@@ -12,5 +12,3 @@ const Input = ({ title, placeholder }: { title: string; placeholder: string }) =
     </div>
   );
 };
-
-export default Input;
