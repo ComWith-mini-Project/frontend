@@ -111,6 +111,14 @@ main {
 
   --hr-margin: 4rem;
 
+  --main-c0: #27282c;
+  --main-c1: #2b2c31;
+  --main-c2: #36373e;
+  --main-c3: #40414a;
+  --main-c4: #666;
+  --blue-c1: #4c8bf5;
+  --blue-c2: #5c95f9;
+
   height: 100%;
   font-size: 10px;
 }

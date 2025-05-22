@@ -21,7 +21,7 @@ export default function RootLayout({
         <div className="flex justify-center">
           <div className={`${styles.container} flex gap-5`}>
             <main className="w-full">{children}</main>
-            <Container className="min-w-[27rem]">
+            <Container className="min-w-[27rem] !p-3">
               <NavBar />
             </Container>
           </div>

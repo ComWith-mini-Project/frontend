@@ -1,17 +1,17 @@
 .btn {
-  background-color: #4c8bf5;
+  background-color: var(--blue-c1);
   color: white;
   font-weight: bold;
   transition: all 0.2s ease-in-out;
   cursor: pointer;
 }
 .btn:hover {
-  background-color: #5c95f9;
+  background-color: var(--blue-c1);
   transform: translateY(-0.2rem);
   box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.2);
 }
 .btn:active {
-  background-color: #4c8bf5;
+  background-color: var(--blue-c1);
   transform: translateY(0.1rem);
   box-shadow: 0 0.05rem 0.5rem rgba(0, 0, 0, 0.2);
 }
