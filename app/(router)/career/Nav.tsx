@@ -1,8 +1,9 @@
 'use client';
 
-import { usePathname } from 'next/navigation';
-import { Routing, RoutingList } from '@/constants/type';
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
+
+import { Routing, RoutingList } from '@/constants/type';
 
 import styles from 'styles/component.module.css';
 

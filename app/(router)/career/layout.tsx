@@ -1,9 +1,10 @@
 import type { Metadata } from 'next';
 
 import { Container } from 'components/Container';
-import NavBar from './Nav';
 
 import styles from 'styles/career.module.css';
+
+import NavBar from './Nav';
 
 export const metadata: Metadata = {
   title: 'Career',

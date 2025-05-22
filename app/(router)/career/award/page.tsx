@@ -1,4 +1,4 @@
-import { MainTitle, SubTitle, Container, Input, Hr } from '@/app/_components';
+import { Container, Hr, Input, MainTitle, SubTitle } from '@/app/_components';
 
 export default function Career() {
   return (
