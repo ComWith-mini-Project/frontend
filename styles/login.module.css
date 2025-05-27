@@ -1,14 +1,14 @@
 .container {
   padding: 4.8rem !important;
   border-radius: 1.6rem !important;
-  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.08);
   width: 100%;
   max-width: 40rem;
 }
 
 .title {
   font-size: 2.4rem;
-  font-weight: 600;
+  font-weight: 700;
   margin-bottom: 3.2rem;
   text-align: center;
 }
@@ -42,7 +42,7 @@
   background: var(--blue-c1);
   color: white;
   font-size: 1.6rem;
-  font-weight: 600;
+  font-weight: 700;
   border-radius: 0.8rem;
   cursor: pointer;
   transition: 0.2s ease-in-out;
@@ -50,13 +50,14 @@
 
 .button:hover {
   background: var(--blue-c2);
+  transform: translateY(-0.1rem);
 }
 
 .footer_link {
   display: block;
   text-align: center;
   margin-top: 2rem;
-  font-size: 1.44rem;
+  font-size: 1.4rem;
   color: var(--blue-c1);
   text-decoration: none;
 }

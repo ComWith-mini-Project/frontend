@@ -8,8 +8,8 @@ export default function Signin() {
   return (
     <div className="center_wrapper">
       <Container className={styles.container}>
-        <h1 className={styles.title}>Welcome Back</h1>
-        <form action="/career/profile" method="post">
+        <h1 className={styles.title}>Create an Account</h1>
+        <form action="/signin" method="post">
           <div className="mb-[2.4rem]">
             <label htmlFor="email" className={styles.label}>
               Email
@@ -36,13 +36,23 @@ export default function Signin() {
               className={styles.input}
             />
           </div>
+          <div className="mb-[2.4rem]">
+            <label htmlFor="password" className={styles.label}>
+              Confirm Password
+            </label>
+            <input
+              type="comfirm_password"
+              id="comfirm_password"
+              name="comfirm_password"
+              placeholder="••••••••"
+              // required
+              className={styles.input}
+            />
+          </div>
           <button type="submit" className={styles.button}>
-            Sign In
+            Sign Up
           </button>
         </form>
-        <Link href={'/signup'} className={styles.footer_link}>
-          계정이 없으신가요? <strong>회원가입</strong>
-        </Link>
       </Container>
     </div>
   );
