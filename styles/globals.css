@@ -110,6 +110,8 @@ main {
   --color-foreground: var(--foreground);
 
   --hr-margin: 4rem;
+  --label-color: #ccc;
+  --input-border: 1px solid #555;
 
   --main-c0: #27282c;
   --main-c1: #2b2c31;
@@ -169,6 +171,14 @@ html input {
 }
 
 /* page wrapper */
+
+.center_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: inherit;
+}
+
 .career-page-wrapper {
   position: relative;
   padding: 0 4rem;
