@@ -9,7 +9,7 @@ export default function Signin() {
     <div className="center_wrapper">
       <Container className={styles.container}>
         <h1 className={styles.title}>Welcome Back</h1>
-        <form action="/career/profile" method="post">
+        <form action="/api/auth/signin" method="POST">
           <div className="mb-[2.4rem]">
             <label htmlFor="email" className={styles.label}>
               Email

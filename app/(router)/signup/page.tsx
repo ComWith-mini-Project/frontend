@@ -4,7 +4,7 @@ import { Container } from '@/app/_components';
 
 import styles from 'styles/login.module.css';
 
-export default function Signin() {
+export default function SignUp() {
   return (
     <div className="center_wrapper">
       <Container className={styles.container}>
@@ -53,6 +53,9 @@ export default function Signin() {
             Sign Up
           </button>
         </form>
+        <Link href={'/signin'} className={styles.footer_link}>
+          이미 계정이 있으신가요? <strong>로그인</strong>
+        </Link>
       </Container>
     </div>
   );
