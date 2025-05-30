@@ -9,12 +9,13 @@ export async function POST(req: NextRequest) {
     console.log('로그인 요청:', { email, password });
 
     const baseUrl = req.nextUrl.origin;
+    console.log('Base URL:', baseUrl);
     const response = NextResponse.redirect(`${baseUrl}/career/profile`);
 
     response.cookies.set('access_token', 'dummy_token', {
       httpOnly: true,
       path: '/',
-      secure: process.env.NODE_ENV === 'production',
+      // secure: process.env.NODE_ENV === 'production',
       sameSite: 'lax',
       maxAge: 60 * 60,
     });
