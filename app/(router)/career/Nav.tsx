@@ -5,7 +5,7 @@ import { usePathname } from 'next/navigation';
 
 import { Routing, RoutingList } from '@/constants/type';
 
-import styles from 'styles/component.module.css';
+import styles from 'styles/nav.module.css';
 
 const List = ({ title, href, className }: { title: string; href: string; className?: string }) => {
   return (
