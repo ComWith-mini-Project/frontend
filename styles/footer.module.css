@@ -29,5 +29,14 @@
   border-radius: 15rem;
   font-size: 1.6rem;
   cursor: pointer;
+}
+
+.save {
   background-color: var(--main-c1);
+}
+
+.web {
+  color: var(--background);
+  background-color: inherit;
+  border: 0.12rem solid var(--main-c1);
 }
