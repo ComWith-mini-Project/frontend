@@ -1,16 +1,27 @@
+import clsx from 'clsx';
+
 import Globe from '@/public/globe.svg';
+import PDF from '@/public/pdf.svg';
 
 import styles from 'styles/footer.module.css';
 
+const { wrapper, inner, l_inner, button, l, r, ani } = styles;
+
 export default function Footer() {
   return (
-    <footer className={styles.wrapper}>
-      <div className={styles.footer_inner}>
-        <div className="h-[inherit]">
-          <Globe />
-          <button className={`${styles.footer_button} ${styles.web}`}>내 커리어 프로필</button>
+    <footer className={wrapper}>
+      <div className={inner}>
+        <div className={l_inner}>
+          <button className={clsx(button, l, ani)}>
+            <Globe width="2.5rem" />
+            <span>내 커리어 프로필</span>
+          </button>
+          <button className={clsx(button, l, ani)}>
+            <PDF width="2.5rem" />
+            <span>PDF로 저장</span>
+          </button>
         </div>
-        <button className={`${styles.footer_button} ${styles.save}`}>프로필 저장</button>
+        <button className={clsx(button, r)}>프로필 저장</button>
       </div>
     </footer>
   );
